@@ -5,89 +5,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spatar Nazar</title>
+    <title>Ronaldo</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
+    <div class="container">
+        <div class="info">
+            <img class="avatar" src="ronaldo.jpg" alt="Роналдо">
 
-    <img src="ronaldo.jpg" alt="Роналдо" width="200px">
+            <div class="info-text">
+                <h1>Роналдо</h1>
+                <p>Lorem ipsum dolor, <em>
+                        <strong>sit amet consectetur</strong> adipisicing elit
+                    </em>. Libero, recusandae quaerat ab
+                    quasi labore
+                    asperiores
+                    architecto aliquam, a voluptatibus nisi officia molestias? Quo, dignissimos repellendus.
+                </p>
+                <h4>Мои соц сети</h4>
+                <a href="https://instagram.com" target="_blank">Insta</a>
+                |
+                <a href="https://youtube.com" target="_blank">YouTube</a>
+            </div>
+        </div>
 
-    <h1>Роналдо</h1>
-    <p>Lorem ipsum dolor, <em>
-            <strong>sit amet consectetur</strong> adipisicing elit
-        </em>. Libero, recusandae quaerat ab
-        quasi labore
-        asperiores
-        architecto aliquam, a voluptatibus nisi officia molestias? Quo, dignissimos repellendus.
-    </p>
+        <!-- <div class="social">
+            <h2>Мои соц сети</h2>
+            <ul>
+                <li><a href="https://instagram.com" target="_blank">Insta</a></li>
+                <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
+            </ul>
+        </div> -->
 
-    <hr>
+        <hr>
 
-    <h2>Мои соц сети</h2>
-    <ul>
-        <li><a href="https://instagram.com" target="_blank">Insta</a></li>
-        <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
-    </ul>
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Программист</li>
+                <li>Бокс</li>
+                <li>Машины</li>
+            </ol>
+        </div>
 
-    <hr>
+        <div class="card bg-green">
+            <h2>Опит работы</h2>
+            <table class="table">
+                <thead>
+                    <th>Компания</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Google</td>
+                        <td>SoftWare</td>
+                        <td>2014-2020</td>
+                    </tr>
+                    <tr>
+                        <td>Microsoft</td>
+                        <td>SoftWare</td>
+                        <td>2011-2014</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <h2>Мои хобби</h2>
-    <ol>
-        <li>Программист</li>
-        <li>Бокс</li>
-        <li>Машины</li>
-    </ol>
+        <div class="card bg-red">
+            <h2>Фильмы/Сериалы</h2>
+            <ul class="link-list">
+                <li><a href="https://ex-fs.net/series/6860-besstydniki.html" target="_blank">Бесстыжие</a></li>
+                <li><a href="https://ex-fs.net/films/109830-mir-yurskogo-perioda-gospodstvo.html" target="_blank">Мир
+                        Юрского
+                        периода: Господство</a></li>
+                <li><a href="https://ex-fs.net/films/107638-doktor-strendzh-v-multivselennoy-bezumiya.html"
+                        target="_blank">Доктор Стрэндж: В мультивселенной безумия<a></li>
+            </ul>
+        </div>
 
-    <hr>
+        <hr>
 
-    <h2>Опит работы</h2>
-    <table border="1px">
-        <thead>
-            <th>Компания</th>
-            <th>Должность</th>
-            <th>Год</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Google</td>
-                <td>SoftWare</td>
-                <td>2014-2020</td>
-            </tr>
-            <tr>
-                <td>Microsoft</td>
-                <td>SoftWare</td>
-                <td>2011-2014</td>
-            </tr>
-        </tbody>
-    </table>
+        <div class="contact">
+            <h2>Связаться со моной</h2>
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="text">Ваш text:</label>
+                    <textarea id="text"></textarea>
+                </div>
 
-    <hr>
+                <input class="btn" type="submit" value="Связаться">
+            </form>
+        </div>
 
-    <h2>Фильмы/Сериалы</h2>
-    <a href="youtube.html" target="_blank">Посмотреть список</a>
+        <!-- <div class="box-model">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div> -->
 
-    <hr>
 
-    <h2>Связаться со моной</h2>
-    <form action="/">
-        <label for="name">Ваше имя:</label>
-        <input type="text" id="name" placeholder="Введите имя">
+        <div class="box">
+            <h1>елемент нивагации можно сделать</h1>
+        </div>
 
-        <br>
-
-        <label for="email">Ваш email:</label>
-        <input type="email" id="email" placeholder="Введите email">
-
-        <br>
-
-        <label for="text">Ваш text:</label>
-        <br>
-        <textarea id="text"></textarea>
-
-        <br>
-
-        <input type="submit" value="Связаться">
-    </form>
+        <div style="margin-bottom: 500px;"></div>
+    </div>
 </body>
 
 </html>
